@@ -47,10 +47,10 @@ deploy:
 cache: cargo
 
 branches:
-  only:
-    # release tags
-    - /^v\d+\.\d+\.\d+.*$/
-    - master
+  # only:
+  #   # release tags
+  #   - /^v\d+\.\d+\.\d+.*$/
+  #   - master
 
 notifications:
   email:
